@@ -39,7 +39,7 @@ class UserRepository:
                 break
 
     def identity(self):
-        if self.isLoggedIn:
+        if self.isLoggedIn: 
             print(f"Username: {self.currentUser.username}")
         else:
             print("Giriş yapılmadı.")
